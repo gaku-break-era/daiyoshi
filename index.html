@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>豊洲仲卸 大芳 - 豊洲から届ける本物の味わい | VIP会員制海産物</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header" id="header">
+        <div class="header-content">
+            <a href="#home" class="logo">豊洲仲卸 大芳</a>
+            <nav class="nav">
+                <a href="#home">Home</a>
+                <a href="#products">厳選商品</a>
+                <a href="#vip">会員制度</a>
+                <a href="#story">豊洲仲卸 大芳物語</a>
+                <a href="#invitation" class="nav-cta">招待を申請</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- メインビジュアル（シンプル化） -->
+    <section class="hero" id="home">
+        <!-- フローティングウニ要素 -->
+        <div class="floating-uni uni-1"></div>
+        <div class="floating-uni uni-2"></div>
+        <div class="floating-uni uni-3"></div>
+        
+        <div class="hero-content">
+            <div class="hero-subtitle glow-effect">Daiyoshi - The Ultimate Class</div>
+            
+            <h1 class="hero-title">
+                <span class="typing-text">特別に選ばれた方にふさわしい</span><br>
+                <span class="glow-effect">最高位のおもてなし</span>
+            </h1>
+            
+            <div class="hero-spacer-lg"></div>
+            
+            <p class="hero-description">
+                日本の海産物文化を世界へ。築地三代の伝統と豊洲の革新が生み出す、究極の美食体験。<br>
+                私たちは美味しい物しかお客様へ提供しないとお約束いたします。
+            </p>
+            
+            <div class="hero-spacer-xl"></div>
+            
+            <button class="hero-cta premium-button cta-primary" onclick="scrollToSection('invitation')">
+                招待を申請する
+            </button>
+            
+            <div class="hero-spacer"></div>
+            
+            <p class="hero-notes">
+                ※ まずは「ベーシック会員」からの段階的ご案内となります<br>
+                ※ 最終審査には代表との面談を含む場合がございます
+            </p>
+        </div>
+    </section>
+
+    <!-- ステータスセクション（新規独立） -->
+    <section class="status-section">
+        <div class="section">
+            <div class="hero-status-card ripple-effect">
+                <div class="status-header">
+                    <h3 class="status-title glow-effect">豊洲仲卸 大芳最高位のステータス</h3>
+                    <p class="status-subtitle">年間限定200名様・完全招待制</p>
+                </div>
+                
+                <div class="status-spacer"></div>
+                
+                <div class="status-metrics">
+                    <div class="metric">
+                        <div class="counter metric-number">187</div>
+                        <div class="metric-label">Current Members</div>
+                    </div>
+                    <div class="metric">
+                        <div class="counter metric-number">13</div>
+                        <div class="metric-label">Remaining Slots</div>
+                    </div>
+                    <div class="metric">
+                        <div class="counter metric-number">99.7%</div>
+                        <div class="metric-label">Satisfaction</div>
+                    </div>
+                    <div class="metric">
+                        <div class="counter metric-number">0.1%</div>
+                        <div class="metric-label">Market Share</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-spacer"></div>
+            
+            <!-- 招待条件を整理 -->
+            <div class="invitation-conditions">
+                <h4 class="conditions-title glow-effect">招待条件</h4>
+                <div class="conditions-spacer"></div>
+                <p class="conditions-text">
+                    豊洲仲卸 大芳が定めた条件を満たした方を招待いたします。<br>
+                    美食への深い理解と、日本の食文化を愛する方々をお待ちしています。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 商品セクション -->
+    <section class="carousel-section" id="products">
+        <div class="carousel-container">
+            <div class="section-header">
+                <h2 class="section-title">市場では手に入らない特別な食材</h2>
+                <p class="section-subtitle">Premium Selection - Market Share 0.1%</p>
+            </div>
+            
+            <div class="section-spacer"></div>
+            
+            <!-- 実績数値 -->
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">99.7%</div>
+                    <div class="metric-description">VIP会員満足度</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">24h</div>
+                    <div class="metric-description">水揚げから配送まで</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">187</div>
+                    <div class="metric-description">現在のVIP会員数</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">3代</div>
+                    <div class="metric-description">続く目利きの技術</div>
+                </div>
+            </div>
+            
+            <div class="section-spacer-lg"></div>
+            
+            <div class="carousel">
+                <div class="carousel-item">
+                    <div class="carousel-image" style="background-image: url('uni.jpg');">
+                        <div class="product-badge">限定品</div>
+                    </div>
+                    <div class="carousel-content">
+                        <h3 class="carousel-title">豊洲厳選 特上ウニ</h3>
+                        <p class="product-rarity">月間流通量：市場全体の0.05%未満</p>
+                        <div class="content-spacer"></div>
+                        <p class="carousel-description">豊洲市場の目利きが選び抜いた最高級ウニ。産地直送・特製木箱入り。放射能検査証明書とシリアル番号付きで完全トレーサビリティを実現。</p>
+                        <div class="content-spacer"></div>
+                        <div class="product-benefit">
+                            <div class="benefit-label">VIP会員特典</div>
+                            <div class="benefit-detail">市場価格より30%OFF + 専用木箱無料</div>
+                        </div>
+                        <div class="content-spacer"></div>
+                        <div class="carousel-price">VIP会員様専用商品</div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="carousel-image" style="background-image: url('maguro.jpg');">
+                        <div class="product-badge">希少</div>
+                    </div>
+                    <div class="carousel-content">
+                        <h3 class="carousel-title">築地伝統 本マグロ</h3>
+                        <p class="product-rarity">年間取扱量：わずか24本（2024年実績）</p>
+                        <div class="content-spacer"></div>
+                        <p class="carousel-description">築地時代から培った目利きで選ぶ天然本マグロ。脂のりと身の締まりが絶妙な、一般流通しない希少部位も。専用熟成庫で最適な状態まで管理。</p>
+                        <div class="content-spacer"></div>
+                        <div class="product-benefit">
+                            <div class="benefit-label">プレミアム会員以上限定</div>
+                            <div class="benefit-detail">職人による部位別カット + 調理指導動画付き</div>
+                        </div>
+                        <div class="content-spacer"></div>
+                        <div class="carousel-price">プレミアム会員様限定</div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="carousel-image" style="background-image: url('kai.jpg');">
+                        <div class="product-badge">季節限定</div>
+                    </div>
+                    <div class="carousel-content">
+                        <h3 class="carousel-title">天然活き貝類</h3>
+                        <p class="product-rarity">漁師直送：1日限定10セット</p>
+                        <div class="content-spacer"></div>
+                        <p class="carousel-description">豊洲市場でその日一番の活き貝を厳選。ホタテ、牡蠣、あわびなど、季節の味覚を最高の鮮度でお届け。専用保冷システムで活きたまま配送。</p>
+                        <div class="content-spacer"></div>
+                        <div class="product-benefit">
+                            <div class="benefit-label">全会員対象</div>
+                            <div class="benefit-detail">開封から2時間以内品質保証 + 調理レシピ付き</div>
+                        </div>
+                        <div class="content-spacer"></div>
+                        <div class="carousel-price">当日朝9時受注締切</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-spacer-lg"></div>
+
+            <!-- 品質保証 -->
+            <div class="quality-guarantee">
+                <h3 class="guarantee-title">豊洲仲卸 大芳品質保証システム</h3>
+                <div class="section-spacer"></div>
+                <div class="guarantee-grid">
+                    <div class="guarantee-item">
+                        <div class="guarantee-icon">🏆</div>
+                        <div class="guarantee-content">
+                            <h4 class="guarantee-name">放射能検査証明書</h4>
+                            <div class="content-spacer-sm"></div>
+                            <p class="guarantee-description">全商品に第三者機関による放射能検査証明書を添付。安心・安全を数値で保証。</p>
+                        </div>
+                    </div>
+                    <div class="guarantee-item">
+                        <div class="guarantee-icon">📦</div>
+                        <div class="guarantee-content">
+                            <h4 class="guarantee-name">シリアル番号管理</h4>
+                            <div class="content-spacer-sm"></div>
+                            <p class="guarantee-description">特製木箱に刻印されたシリアル番号で完全トレーサビリティを実現。</p>
+                        </div>
+                    </div>
+                    <div class="guarantee-item">
+                        <div class="guarantee-icon">❄️</div>
+                        <div class="guarantee-content">
+                            <h4 class="guarantee-name">専用冷蔵配送</h4>
+                            <div class="content-spacer-sm"></div>
+                            <p class="guarantee-description">温度管理された専用車両で、最適な状態を保ったまま当日お届け。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-spacer"></div>
+                <div class="guarantee-cta">
+                    <button class="cta-secondary" onclick="scrollToSection('vip')">詳しいサービスを見る</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIP会員制 -->
+    <section class="vip-section" id="vip">
+        <div class="section">
+            <div class="section-header">
+                <h2 class="section-title">究極のステータス、唯一無二の体験</h2>
+                <p class="section-subtitle">Daiyoshi Premium Membership - The Class</p>
+            </div>
+            
+            <div class="section-spacer-lg"></div>
+            
+            <!-- 段階的アプローチ -->
+            <div class="membership-journey">
+                <h3 class="journey-title">豊洲仲卸 大芳へのラストステップ</h3>
+                <div class="section-spacer"></div>
+                <p class="journey-description">最高位「プラチナ会員」への道のりは、まずベーシック会員からスタートし、段階的にステップアップしていただきます。</p>
+                
+                <div class="section-spacer-lg"></div>
+                
+                <div class="journey-steps">
+                    <div class="step-card">
+                        <div class="step-icon bronze">🥉</div>
+                        <div class="step-content">
+                            <h4 class="step-label">STEP 1</h4>
+                            <div class="content-spacer-sm"></div>
+                            <p class="step-name">ベーシック会員</p>
+                            <div class="content-spacer-sm"></div>
+                            <p class="step-price">年会費 50,000円<br>豊洲体験の入り口</p>
+                        </div>
+                    </div>
+                    
+                    <div class="step-card featured">
+                        <div class="step-icon silver">🥈</div>
+                        <div class="step-content">
+                            <h4 class="step-label">STEP 2</h4>
+                            <div class="content-spacer-sm"></div>
+                            <p class="step-name">プレミアム会員</p>
+                            <div class="content-spacer-sm"></div>
+                            <p class="step-price">年会費 150,000円<br>本格的な特別体験</p>
+                        </div>
+                    </div>
+                    
+                    <div class="step-card premium">
+                        <div class="step-icon gold">🥇</div>
+                        <div class="step-content">
+                            <h4 class="step-label">STEP 3</h4>
+                            <div class="content-spacer-sm"></div>
+                            <p class="step-name">プラチナ会員（招待制）</p>
+                            <div class="content-spacer-sm"></div>
+                            <p class="step-price">年会費 300,000円<br>最高位のステータス</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="section-spacer-lg"></div>
+                
+                <div class="journey-cta">
+                    <p class="journey-note">プラチナ会員は、プレミアム会員として1年以上ご利用いただき、<br>豊洲仲卸 大芳が定めた条件を満たした方のみを招待いたします。</p>
+                    <div class="section-spacer"></div>
+                    <div class="cta-buttons">
+                        <button class="cta-primary" onclick="scrollToSection('invitation')">ベーシック会員から始める</button>
+                        <button class="cta-secondary" onclick="scrollToSection('story')">豊洲仲卸 大芳について詳しく</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-spacer-xl"></div>
+            
+            <!-- 価値説明セクション -->
+            <div class="value-proposition">
+                <h3 class="value-title">手のひらで感じる本物の重厚感</h3>
+                <div class="section-spacer"></div>
+                <p class="value-description">特製木箱は一般的な食材パッケージの約4倍の重量。職人が一つ一つ手作りで仕上げた木箱に刻まれるシリアル番号。本物だからこそ味わえる重厚感をお楽しみください。</p>
+            </div>
+
+            <div class="section-spacer-xl"></div>
+
+            <!-- 一日の体験ストーリー -->
+            <div class="daily-experience">
+                <h3 class="experience-title">VIP会員様の一日</h3>
+                
+                <div class="section-spacer-lg"></div>
+                
+                <div class="experience-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-time">08:00</div>
+                        <div class="timeline-content">
+                            <h4 class="timeline-title">豊洲市場からの特別連絡</h4>
+                            <div class="content-spacer-sm"></div>
+                            <p class="timeline-description">その日最高の入荷情報をコンシェルジュから直接お電話。市場では手に入らない特別な魚介類の先行ご案内。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-time">12:00</div>
+                        <div class="timeline-content">
+                            <h4 class="timeline-title">会員制レストランでの接待</h4>
+                            <div class="content-spacer-sm"></div>
+                            <p class="timeline-description">豊洲仲卸 大芳提携の会員制レストランで、当社厳選食材を使った特別コース。2名様ご予約で1名様無料。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-time">18:00</div>
+                        <div class="timeline-content">
+                            <h4 class="timeline-title">専用車での配送</h4>
+                            <div class="content-spacer-sm"></div>
+                            <p class="timeline-description">特製木箱入り厳選食材を専用冷蔵車で当日お届け。プラチナ会員様は往復送迎サービス付き。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-spacer-xl"></div>
+            
+            <div class="vip-cards">
+                <div class="vip-card silver">
+                    <div class="vip-rank">Basic Membership</div>
+                    <div class="card-spacer"></div>
+                    <h3 class="vip-title">ベーシック</h3>
+                    <div class="card-spacer"></div>
+                    <div class="vip-price">年会費 50,000円（税込）</div>
+                    <div class="vip-monthly">月約4,200円で極上体験</div>
+                    <div class="card-spacer-lg"></div>
+                    <ul class="vip-features">
+                        <li>月1回の限定商品配送（市場価格20%OFF）</li>
+                        <li>年間約180,000円相当の優待</li>
+                        <li>専用LINE相談窓口（24時間以内回答保証）</li>
+                        <li>季節の贈答品サービス（年4回）</li>
+                        <li>全国配送料無料</li>
+                        <li>特製木箱コレクション権利</li>
+                    </ul>
+                    <div class="card-spacer-lg"></div>
+                    <button class="vip-cta">入会を検討する</button>
+                </div>
+                
+                <div class="vip-card featured">
+                    <div class="featured-badge">MOST POPULAR</div>
+                    <div class="vip-rank">Premium Membership</div>
+                    <div class="card-spacer"></div>
+                    <h3 class="vip-title">プレミアム</h3>
+                    <div class="card-spacer"></div>
+                    <div class="vip-price">年会費 150,000円（税込）</div>
+                    <div class="vip-monthly">月約12,500円で年間600,000円相当の特典</div>
+                    <div class="card-spacer-lg"></div>
+                    <ul class="vip-features">
+                        <li>月2回の限定商品配送（市場未流通品含む）</li>
+                        <li>年間約600,000円相当の優待</li>
+                        <li>豊洲市場VIPツアー（年2回・同伴者1名無料）</li>
+                        <li>専属コンシェルジュサービス</li>
+                        <li>提携高級レストラン優待（2名で1名無料）</li>
+                        <li>専用冷蔵車配送サービス</li>
+                        <li>限定商品の優先購入権</li>
+                        <li><strong>プラチナ会員招待資格</strong></li>
+                    </ul>
+                    <div class="card-spacer-lg"></div>
+                    <button class="vip-cta">入会を検討する</button>
+                </div>
+                
+                <div class="vip-card platinum">
+                    <div class="platinum-badge">INVITATION ONLY</div>
+                    <div class="vip-rank">Platinum Membership</div>
+                    <div class="card-spacer"></div>
+                    <h3 class="vip-title">プラチナ（招待制）</h3>
+                    <div class="card-spacer"></div>
+                    <div class="vip-price">年会費 300,000円（税込）</div>
+                    <div class="vip-monthly">月約25,000円で年間1,200,000円相当の特典</div>
+                    <div class="card-spacer-lg"></div>
+                    <ul class="vip-features">
+                        <li>週1回の特別配送（専用車送迎付き）</li>
+                        <li>年間約1,200,000円相当の優待</li>
+                        <li>仲卸との直接商談権（月1回）</li>
+                        <li>産地ツアー（年4回・宿泊費込み）</li>
+                        <li>24時間コンシェルジュ（専任担当制）</li>
+                        <li>会員制レストラン年間パス</li>
+                        <li>完全オーダーメイド食材調達</li>
+                        <li>会員限定イベント優先参加権</li>
+                        <li><strong>代表との直接面談権</strong></li>
+                    </ul>
+                    <div class="card-spacer-lg"></div>
+                    <button class="vip-cta platinum-cta">招待制につきお待ちください</button>
+                </div>
+            </div>
+
+            <div class="section-spacer-xl"></div>
+
+            <!-- 限定性の強調 -->
+            <div class="exclusivity">
+                <h3 class="exclusivity-title">完全招待制・年間限定200名様</h3>
+                <div class="section-spacer"></div>
+                <p class="exclusivity-status">現在の会員数：187名<br>残り枠数：13名（2024年12月現在）</p>
+                <div class="section-spacer"></div>
+                <div class="exclusivity-note">
+                    <p>※ VIP会員制度は年間200名様限定です。品質とサービスレベル維持のため、定員に達し次第、新規受付を一時停止いたします。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ストーリーセクション -->
+    <section class="story-section" id="story">
+        <div class="section">
+            <div class="section-header">
+                <h2 class="section-title">築地から豊洲へ、変わらぬ目利きの技</h2>
+                <p class="section-subtitle">Daiyoshi's Legacy - Three Generations of Excellence</p>
+            </div>
+            
+            <div class="section-spacer-xl"></div>
+            
+            <div class="story-grid">
+                <div class="story-content">
+                    <h3 class="story-heading">三代に渡る仲卸の誇り</h3>
+                    <div class="content-spacer-lg"></div>
+                    <p class="story-paragraph">築地市場時代から培ってきた目利きの技術と、生産者との信頼関係。豊洲市場移転後も、変わらず最高品質の海産物をお客様にお届けしています。</p>
+                    <div class="content-spacer"></div>
+                    <p class="story-paragraph">「豊洲仲卸 大芳」として築き上げてきた信頼は、毎朝4時からの市場での真剣勝負の積み重ね。その日最高の魚を見極める技術は、三代に渡り受け継がれています。</p>
+                    <div class="content-spacer-lg"></div>
+                    <div class="story-quote">
+                        お客様に最高のものを届けたい。それが『豊洲仲卸 大芳』三代の変わらぬ想いです。<br>
+                        <span class="quote-author">- 豊洲仲卸 大芳 三代目</span>
+                    </div>
+                    <div class="content-spacer-lg"></div>
+                    <button class="cta-tertiary" onclick="scrollToSection('invitation')">豊洲仲卸 大芳を体験する</button>
+                </div>
+                <div class="story-image"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 顧客の声 -->
+    <section class="testimonials">
+        <div class="section">
+            <div class="section-header">
+                <h2 class="section-title">お客様の声</h2>
+                <p class="section-subtitle">Testimonials from VIP Members</p>
+            </div>
+            
+            <div class="section-spacer-lg"></div>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        「豊洲仲卸 大芳さんの目利きは本物です。築地時代からお付き合いをさせていただいており、豊洲移転後も変わらぬ品質で感謝しています。」
+                    </div>
+                    <div class="content-spacer"></div>
+                    <div class="testimonial-author">銀座 鮨○○ 大将</div>
+                    <div class="testimonial-title">ミシュラン掲載店</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        「VIP会員制になってから、一般では手に入らない特別な海産物をいただけるようになりました。家族の記念日に欠かせない存在です。」
+                    </div>
+                    <div class="content-spacer"></div>
+                    <div class="testimonial-author">Y.K様</div>
+                    <div class="testimonial-title">プレミアム会員</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SNSセクション -->
+    <section class="social-section">
+        <div class="section">
+            <div class="section-header">
+                <h2 class="section-title">豊洲市場の日常をご覧ください</h2>
+                <p class="section-subtitle">Daily Excellence from Toyosu Market</p>
+            </div>
+            
+            <div class="section-spacer-lg"></div>
+            
+            <div class="social-grid">
+                <div class="social-embed">
+                    <div class="social-platform">📸 Instagram</div>
+                    <div class="content-spacer"></div>
+                    <p>豊洲市場での目利き風景<br>新鮮な海産物の入荷情報<br><br>#豊洲市場 #豊洲仲卸 大芳 #目利き</p>
+                    <div class="content-spacer"></div>
+                    <button class="cta-tertiary">@toyosu_daiyoshi_ayumu4</button>
+                </div>
+                <div class="social-embed">
+                    <div class="social-platform">🎬 TikTok</div>
+                    <div class="content-spacer"></div>
+                    <p>仲卸の職人技動画<br>魚の選別・加工技術<br><br>#仲卸の技 #豊洲</p>
+                    <div class="content-spacer"></div>
+                    <button class="cta-tertiary">@daiyoshi_official</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- お問い合わせ -->
+    <section class="contact-section" id="invitation">
+        <div class="section">
+            <div class="section-header">
+                <h2 class="section-title">豊洲仲卸 大芳への招待申請</h2>
+                <p class="section-subtitle">Application for Daiyoshi VIP Membership</p>
+            </div>
+            
+            <div class="section-spacer-lg"></div>
+            
+            <!-- 品質への絶対的自信 -->
+            <div class="quality-statement">
+                <h3 class="statement-title">日本の海産物文化を世界へ</h3>
+                <div class="content-spacer-lg"></div>
+                <p class="statement-description">
+                    これまで、日本中、そして世界各国のあらゆる美食を常に追い求めてきました。私たちがお届けする海産物のクオリティには絶対の自信があります。豊洲市場で提供される食材が美味しいのは当たり前。
+                </p>
+                <div class="content-spacer"></div>
+                <p class="statement-promise">
+                    私たちは美味しい物しかお客様へ提供しないとお約束いたします。
+                </p>
+            </div>
+            
+            <div class="section-spacer-xl"></div>
+            
+            <!-- 申し込みプロセス -->
+            <div class="application-process">
+                <div class="process-step">
+                    <div class="process-number">1</div>
+                    <div class="process-content">
+                        <h4 class="process-title">招待申請フォーム送信</h4>
+                        <div class="content-spacer-sm"></div>
+                        <p class="process-description">下記フォームより詳細情報をご入力</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">2</div>
+                    <div class="process-content">
+                        <h4 class="process-title">審査・代表面談</h4>
+                        <div class="content-spacer-sm"></div>
+                        <p class="process-description">48時間以内にご連絡、必要に応じて面談</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">3</div>
+                    <div class="process-content">
+                        <h4 class="process-title">会員証発行・サービス開始</h4>
+                        <div class="content-spacer-sm"></div>
+                        <p class="process-description">最短5営業日で会員証をお手元にお届け</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-spacer-xl"></div>
+            
+            <form class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">お名前 *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="furigana">フリガナ *</label>
+                        <input type="text" id="furigana" name="furigana" required>
+                    </div>
+                </div>
+                
+                <div class="form-spacer"></div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">メールアドレス *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">お電話番号 *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+                
+                <div class="form-spacer"></div>
+                
+                <div class="form-group">
+                    <label for="membership">ご希望会員種別 *</label>
+                    <select id="membership" name="membership" required>
+                        <option value="">選択してください</option>
+                        <option value="basic">ベーシック会員（年会費 50,000円）</option>
+                        <option value="premium">プレミアム会員（年会費 150,000円）※ベーシック経由</option>
+                        <option value="platinum">プラチナ会員（年会費 300,000円）※招待制のみ</option>
+                    </select>
+                </div>
+                
+                <div class="form-spacer"></div>
+                
+                <div class="form-group">
+                    <label for="company">ご所属・職業 *</label>
+                    <input type="text" id="company" name="company" required placeholder="例：○○株式会社 代表取締役、医師、弁護士等">
+                </div>
+                
+                <div class="form-spacer"></div>
+                
+                <div class="form-group">
+                    <label for="occasion">主なご利用シーン *</label>
+                    <textarea id="occasion" name="occasion" rows="4" required placeholder="例：接待での利用、家族の記念日、贈答品として、料理研究等"></textarea>
+                </div>
+                
+                <div class="form-spacer"></div>
+                
+                <div class="form-group">
+                    <label for="experience">高級食材・海産物へのこだわり</label>
+                    <textarea id="experience" name="experience" rows="4" placeholder="例：築地市場での購入経験、料理への情熱、美食への探求心等"></textarea>
+                </div>
+                
+                <div class="form-spacer"></div>
+                
+                <div class="form-group">
+                    <label for="message">豊洲仲卸 大芳を知ったきっかけ・ご質問等</label>
+                    <textarea id="message" name="message" rows="5" placeholder="ご自由にお書きください"></textarea>
+                </div>
+                
+                <div class="form-spacer-lg"></div>
+                
+                <!-- プライバシー同意 -->
+                <div class="privacy-agreement">
+                    <label class="privacy-label">
+                        <input type="checkbox" required class="privacy-checkbox">
+                        <span class="privacy-text">個人情報の取扱いについて同意します。ご入力いただいた情報は、VIP会員サービスのご案内およびお問い合わせ対応のみに使用し、第三者への提供は行いません。招待審査のため、代表との面談をお願いする場合がございます。</span>
+                    </label>
+                </div>
+                
+                <div class="form-spacer-lg"></div>
+                
+                <button type="submit" class="contact-cta cta-primary">
+                    豊洲仲卸 大芳VIP会員への招待を申請する
+                </button>
+                
+                <div class="form-spacer-lg"></div>
+                
+                <!-- 申し込み注意事項 -->
+                <div class="application-notes">
+                    <h4 class="notes-title">ご申請前にご確認ください</h4>
+                    <div class="content-spacer"></div>
+                    <ul class="notes-list">
+                        <li>年間会員数は200名様限定、完全招待制となっております</li>
+                        <li>審査には2-5営業日、場合により代表面談をお願いいたします</li>
+                        <li>プラチナ会員は既存会員からの招待のみとなります</li>
+                        <li>初年度年会費は会員証発行時に決済させていただきます</li>
+                        <li>営業目的でのお申し込みは固くお断りしております</li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- 最高峰の体験セクション -->
+    <section class="ultimate-experience">
+        <div class="section">
+            <div class="section-header">
+                <h2 class="section-title">最高峰にふさわしい体験を</h2>
+                <p class="section-subtitle">The Ultimate Seafood Experience</p>
+            </div>
+            
+            <div class="section-spacer-xl"></div>
+            
+            <div class="experience-grid">
+                <!-- コンシェルジュサービス -->
+                <div class="experience-item">
+                    <div class="experience-icon">🎖️</div>
+                    <div class="experience-content">
+                        <h3 class="experience-name">あらゆるオーダーに<br>最高級のご提案を</h3>
+                        <div class="content-spacer"></div>
+                        <h4 class="experience-service">豊洲仲卸 大芳 コンシェルジュデスク</h4>
+                        <div class="content-spacer"></div>
+                        <p class="experience-description">専用コンシェルジュが海産物の手配・レシピ提案など、さまざまなご相談を可能な限り承ります。24時間365日、あなたの美食体験をサポート。</p>
+                    </div>
+                </div>
+                
+                <!-- メンバーズセレクション -->
+                <div class="experience-item">
+                    <div class="experience-icon">📦</div>
+                    <div class="experience-content">
+                        <h3 class="experience-name">年に4回、厳選された<br>希少食材をお届け</h3>
+                        <div class="content-spacer"></div>
+                        <h4 class="experience-service">豊洲仲卸 大芳 メンバーズ・セレクション</h4>
+                        <div class="content-spacer"></div>
+                        <p class="experience-description">市場流通量0.01%未満の極上品のなかから、お好きな商品をひとつ選べるVIP会員の皆様だけの特別なサービスをご用意。</p>
+                    </div>
+                </div>
+                
+                <!-- グルメベネフィット -->
+                <div class="experience-item">
+                    <div class="experience-icon">🍽️</div>
+                    <div class="experience-content">
+                        <h3 class="experience-name">高級レストランで、<br>お1人様分無料</h3>
+                        <div class="content-spacer"></div>
+                        <h4 class="experience-service">豊洲仲卸 大芳 グルメ・ベネフィット</h4>
+                        <div class="content-spacer"></div>
+                        <p class="experience-description">提携レストランで所定のコース料理を2名様以上で予約すると1名様分無料に。当社厳選食材を使った特別なひとときを。</p>
+                    </div>
+                </div>
+                
+                <!-- 専用木箱サービス -->
+                <div class="experience-item">
+                    <div class="experience-icon">⚖️</div>
+                    <div class="experience-content">
+                        <h3 class="experience-name">さらなる重厚感を<br>あなたの手に</h3>
+                        <div class="content-spacer"></div>
+                        <h4 class="experience-service">豊洲仲卸 大芳 特製木箱コレクション</h4>
+                        <div class="content-spacer"></div>
+                        <p class="experience-description">VIP会員専用の特製木箱です。職人手作りならではの至高の手触りと重厚感をその手に。シリアル番号付きコレクションアイテム。</p>
+                    </div>
+                </div>
+                
+                <!-- 産地ツアー -->
+                <div class="experience-item">
+                    <div class="experience-icon">🏔️</div>
+                    <div class="experience-content">
+                        <h3 class="experience-name">日本各地の名産地で<br>特別な体験を</h3>
+                        <div class="content-spacer"></div>
+                        <h4 class="experience-service">プレミアム産地ツアー</h4>
+                        <div class="content-spacer"></div>
+                        <p class="experience-description">北海道から九州まで、日本各地の厳選された産地で漁師との直接交流や水揚げ体験。宿泊費・交通費込みの特別企画。</p>
+                    </div>
+                </div>
+                
+                <!-- 安心保証 -->
+                <div class="experience-item">
+                    <div class="experience-icon">🛡️</div>
+                    <div class="experience-content">
+                        <h3 class="experience-name">ご購入商品も安心。<br>最高300万円補償</h3>
+                        <div class="content-spacer"></div>
+                        <h4 class="experience-service">豊洲仲卸 大芳 品質保証制度</h4>
+                        <div class="content-spacer"></div>
+                        <p class="experience-description">ご購入から72時間以内の品質問題について、年間最大300万円まで補償。第三者機関による検査体制で安心をお約束。</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-spacer-xl"></div>
+            
+            <div class="experience-summary">
+                <h3 class="summary-title">これだけではありません。</h3>
+                <div class="content-spacer"></div>
+                <p class="summary-description">さまざまな体験を用意しています。</p>
+                <div class="content-spacer-lg"></div>
+                <button class="cta-secondary" onclick="scrollToSection('vip')">すべてのサービスを見る</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <div class="footer-logo">豊洲仲卸 大芳</div>
+                <div class="content-spacer"></div>
+                <p class="footer-description">築地三代の伝統を豊洲で受け継ぎ、日本の海産物文化を世界へ。完全招待制のVIP会員サービスで、最高位のおもてなしを提供いたします。</p>
+                <div class="content-spacer"></div>
+                <div class="footer-stats">
+                    <span class="stats-label">現在の会員数：</span>
+                    <span class="stats-number">187名</span>
+                    <span class="stats-limit">/ 200名限定</span>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4 class="footer-heading">サービス</h4>
+                <div class="content-spacer"></div>
+                <ul class="footer-links">
+                    <li><a href="#products">厳選商品</a></li>
+                    <li><a href="#vip">VIP会員制度</a></li>
+                    <li><a href="#">コンシェルジュ</a></li>
+                    <li><a href="#">産地ツアー</a></li>
+                    <li><a href="#">品質保証</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4 class="footer-heading">会社案内</h4>
+                <div class="content-spacer"></div>
+                <ul class="footer-links">
+                    <li><a href="#story">豊洲仲卸 大芳物語</a></li>
+                    <li><a href="#">代表挨拶</a></li>
+                    <li><a href="#">豊洲市場について</a></li>
+                    <li><a href="#">プライバシーポリシー</a></li>
+                    <li><a href="#">特定商取引法</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4 class="footer-heading">お問い合わせ</h4>
+                <div class="content-spacer"></div>
+                <ul class="footer-links">
+                    <li><a href="#invitation">招待申請</a></li>
+                    <li><a href="tel:03-xxxx-xxxx">TEL: 03-xxxx-xxxx</a></li>
+                    <li><a href="mailto:vip@daiyoshi.co.jp">vip@daiyoshi.co.jp</a></li>
+                    <li><a href="#">お問い合わせフォーム</a></li>
+                    <li class="contact-hours">
+                        <div class="hours-label">営業時間</div>
+                        <div class="hours-time">平日 9:00-18:00</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-spacer"></div>
+        
+        <div class="footer-bottom">
+            <div class="footer-text">© 2024 DAIYOSHI. All rights reserved. | 豊洲から選ばれた方だけの特別なサービス</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
